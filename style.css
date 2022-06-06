@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 30px;
+    background-color: rgba(0, 153, 204, 0.5);
+    background-image: url(imagens/logo_windows11.png), url(imagens/fundo_windows.png);
+    background-repeat: no-repeat, no-repeat; /* Faz a imagem não repetir */
+    background-position: 20px 20px, bottom center;
+    background-size: 400px, contain;
+    background-attachment: fixed; /* Deixe o bg fixo no body */
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: justify;
+    background-color: rgba(6, 72, 158, 0.7);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+}
+
+#container *{
+    margin-bottom: 20px;
+}
